@@ -1,3 +1,8 @@
+# Folders
+
+# Files
+API.md
+
 # Miscellaneous
 *.class
 *.lock
@@ -6,7 +11,6 @@
 *.swp
 .buildlog/
 .history
-
 
 
 # Flutter repo-specific
