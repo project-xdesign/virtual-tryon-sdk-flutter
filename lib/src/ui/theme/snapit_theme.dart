@@ -38,11 +38,11 @@ class SnapITTheme {
           fontFamily: fontFamily,
         ),
         bodyLarge: TextStyle(
-          color: textColor.withOpacity(0.9),
+          color: textColor.withValues(alpha: 0.9),
           fontFamily: fontFamily,
         ),
         bodyMedium: TextStyle(
-          color: textColor.withOpacity(0.7),
+          color: textColor.withValues(alpha: 0.7),
           fontFamily: fontFamily,
         ),
       ),

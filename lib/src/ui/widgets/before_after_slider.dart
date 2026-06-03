@@ -29,7 +29,8 @@ class _BeforeAfterSliderState extends State<BeforeAfterSlider> {
         return GestureDetector(
           onHorizontalDragUpdate: (details) {
             setState(() {
-              _dividerOffset = (details.localPosition.dx / width).clamp(0.0, 1.0);
+              _dividerOffset =
+                  (details.localPosition.dx / width).clamp(0.0, 1.0);
             });
           },
           child: Stack(
@@ -40,7 +41,8 @@ class _BeforeAfterSliderState extends State<BeforeAfterSlider> {
                   widget.afterImageUrl,
                   fit: BoxFit.cover,
                   errorBuilder: (context, error, stackTrace) => const Center(
-                    child: Icon(Icons.broken_image, size: 64, color: Colors.grey),
+                    child:
+                        Icon(Icons.broken_image, size: 64, color: Colors.grey),
                   ),
                 ),
               ),
@@ -52,7 +54,8 @@ class _BeforeAfterSliderState extends State<BeforeAfterSlider> {
                     widget.beforeImageUrl,
                     fit: BoxFit.cover,
                     errorBuilder: (context, error, stackTrace) => const Center(
-                      child: Icon(Icons.broken_image, size: 64, color: Colors.grey),
+                      child: Icon(Icons.broken_image,
+                          size: 64, color: Colors.grey),
                     ),
                   ),
                 ),
@@ -79,7 +82,7 @@ class _BeforeAfterSliderState extends State<BeforeAfterSlider> {
                     color: widget.handleColor,
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.black.withOpacity(0.3),
+                        color: Colors.black.withValues(alpha: 0.3),
                         blurRadius: 10,
                         spreadRadius: 2,
                       )
@@ -87,7 +90,9 @@ class _BeforeAfterSliderState extends State<BeforeAfterSlider> {
                   ),
                   child: Icon(
                     Icons.swap_horiz,
-                    color: widget.handleColor == Colors.white ? Colors.black : Colors.white,
+                    color: widget.handleColor == Colors.white
+                        ? Colors.black
+                        : Colors.white,
                   ),
                 ),
               ),
