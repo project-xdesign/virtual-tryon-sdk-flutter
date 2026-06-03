@@ -1,4 +1,4 @@
-library snapit_vton_sdk;
+library snapit_sdk;
 
 import 'package:flutter/material.dart';
 import 'src/ui/theme/snapit_theme.dart';

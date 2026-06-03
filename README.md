@@ -10,7 +10,7 @@ A high-performance, single-line integration Virtual Try-On (VTON) SDK for D2C/e-
 Add this to your Flutter project's `pubspec.yaml`:
 ```yaml
 dependencies:
-  snapit_vton_sdk:
+  snapit_sdk:
     path: ../virtual-tryon-sdk-flutter # Or use git/pub dependency
 ```
 
@@ -18,7 +18,7 @@ dependencies:
 Import the package and call `SnapIT.launchTryOnFlow` with a single line of code:
 
 ```dart
-import 'package:snapit_vton_sdk/snapit_vton_sdk.dart';
+import 'package:snapit_sdk/snapit_sdk.dart';
 
 void openVirtualTryOn(BuildContext context) {
   SnapIT.launchTryOnFlow(
