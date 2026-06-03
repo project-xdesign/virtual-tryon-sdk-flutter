@@ -338,7 +338,8 @@ class _TryOnFlowScreenState extends State<TryOnFlowScreen> {
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.white.withValues(alpha: 0.1),
                     foregroundColor: Colors.white,
-                    padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
+                    padding: const EdgeInsets.symmetric(
+                        vertical: 16, horizontal: 20),
                     shape: RoundedRectangleBorder(
                       borderRadius:
                           BorderRadius.circular(widget.sdkTheme.borderRadius),
@@ -351,7 +352,8 @@ class _TryOnFlowScreenState extends State<TryOnFlowScreen> {
                           height: 20,
                           child: CircularProgressIndicator(
                             strokeWidth: 2,
-                            valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+                            valueColor:
+                                AlwaysStoppedAnimation<Color>(Colors.white),
                           ),
                         )
                       : const Icon(Icons.download_rounded, size: 20),
