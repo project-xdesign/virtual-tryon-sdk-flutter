@@ -1,6 +1,6 @@
 name: snapit_sdk
 description: A premium, one-line integration Virtual Try-On (VTON) Flutter SDK for D2C apps powered by Snapmydesign.
-version: 1.0.0
+version: 1.0.1
 homepage: https://sdk.snapmydesign.com
 repository: https://github.com/project-xdesign/virtual-tryon-sdk-flutter
 

@@ -11,6 +11,7 @@ API.md
 *.swp
 .buildlog/
 .history
+publish.sh
 
 
 # Flutter repo-specific
