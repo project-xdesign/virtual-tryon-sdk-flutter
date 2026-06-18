@@ -7,11 +7,15 @@ A high-performance, single-line integration Virtual Try-On (VTON) SDK for D2C/e-
 ## ⚡ Integration in 1 Minute
 
 ### 1. Add Dependency
-Add this to your Flutter project's `pubspec.yaml`:
+Run the following command in your Flutter project root:
+```bash
+flutter pub add snapit_sdk
+```
+
+Or manually add it to your project's `pubspec.yaml` under dependencies:
 ```yaml
 dependencies:
-  snapit_sdk:
-    path: ../virtual-tryon-sdk-flutter # Or use git/pub dependency
+  snapit_sdk: ^1.0.0
 ```
 
 ### 2. Launch the Try-On Flow
