@@ -6,3 +6,6 @@
 * Support for uploading person images and triggering virtual try-on generations.
 * Customizable design tokens using `SnapIT Theme`.
 * Includes an interactive before/after image comparison slider.
+
+## 1.0.1 
+* updated readme, docs
