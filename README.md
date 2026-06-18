@@ -7,6 +7,8 @@ A high-performance, single-line integration Virtual Try-On (VTON) SDK for D2C/e-
 ## ⚡ Integration in 1 Minute
 
 ### 1. Add Dependency
+Developer's docs are at : https://docs.snapmydesign.com
+
 Run the following command in your Flutter project root:
 ```bash
 flutter pub add snapit_sdk
