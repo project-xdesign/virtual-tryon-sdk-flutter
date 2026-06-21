@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Design tokens class to allow host apps (like Myntra or Souled Store) to customize the SDK's UI look & feel.
+/// Design tokens class to allow host apps (like e-commerce and D2C apps) to customize the SDK's UI look & feel.
 class SnapITTheme {
   final Color primaryColor;
   final Color backgroundColor;

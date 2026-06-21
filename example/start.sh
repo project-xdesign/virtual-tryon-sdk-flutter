@@ -1,0 +1,1 @@
+flutter run -d RZCY9001F2L --dart-define-from-file=.env

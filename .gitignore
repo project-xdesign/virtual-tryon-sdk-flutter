@@ -2,6 +2,8 @@
 
 # Files
 API.md
+example/.env
+example/assets
 
 # Miscellaneous
 *.class
@@ -12,6 +14,7 @@ API.md
 .buildlog/
 .history
 publish.sh
+
 
 
 # Flutter repo-specific
