@@ -33,13 +33,13 @@ void openVirtualTryOn(BuildContext context) {
     userId: "DEVELOPER_USER_ID",             // From your SMD console dashboard
     garmentImageUrl: "https://yourstore.com/images/shirt_102.jpg",
     productId: "sku_shirt_102_blue",         // Optional SKU tracking
-    externalUserId: "consumer_myntra_77102",  // Optional customer tracking
+    externalUserId: "consumer_user_77102",  // Optional customer tracking
     metadata: {                              // Optional custom payload
       "campaign": "summer_fest_2026",
       "gender": "male"
     },
     theme: SnapITTheme(
-      primaryColor: const Color(0xFFFF3F6C), // Custom brand color (e.g. Myntra pink)
+      primaryColor: const Color(0xFFFF3F6C), // Custom brand color (e.g. vibrant pink)
       fontFamily: 'Outfit',
     ),
     onSuccess: (resultImageUrl, generationId) {

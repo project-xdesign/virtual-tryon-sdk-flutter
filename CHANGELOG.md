@@ -9,3 +9,6 @@
 
 ## 1.0.1 
 * updated readme, docs
+
+## 1.0.2
+* updated readme, added example usage in real app 
